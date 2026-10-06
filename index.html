@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Bio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="perfil">
+        <img src="img/logo.jpg" alt="Logo Addson Cardoso" class="logo">
+        <h1>Addson Cardoso</h1>
+        <p>Criação de Sites</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <button id="temaBtn">🌙 Tema Escuro</button>
+</header>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+
+    <p>
+        Olá! Meu nome é Addson Gabriel Da Silva Cardoso, sou estudante de
+        Computação e Engenharia Civil. Tenho interesse em tecnologia,
+        desenvolvimento web, programação e soluções computacionais.
+        Atualmente busco aprimorar minhas habilidades em HTML, CSS,
+        JavaScript e outras tecnologias voltadas ao desenvolvimento de
+        software. Também possuo conhecimentos em AutoCAD e Excel,
+        adquiridos durante minha formação acadêmica e experiências
+        profissionais. Gosto de aprender novas ferramentas, desenvolver
+        projetos e enfrentar desafios que contribuam para meu crescimento
+        profissional. Meu objetivo é construir uma carreira sólida na área
+        de tecnologia, aplicando criatividade e inovação para resolver
+        problemas do mundo real.
+    </p>
+
+    <button id="mostrarMais">Mostrar Mais</button>
+
+    <p id="textoExtra">
+        Além da programação, também possuo interesse em inteligência
+        artificial, desenvolvimento mobile e banco de dados.
+    </p>
+</section>
+
+<section id="habilidades">
+    <h2>Habilidades</h2>
+
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>AutoCAD</li>
+        <li>Excel</li>
+    </ul>
+</section>
+
+<section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="card">
+        <h3>Semáforo Inteligente</h3>
+        <p>
+            Sistema desenvolvido com Arduino para controle de travessia
+            de pedestres utilizando sensores e temporização.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Site de Login</h3>
+        <p>
+            Projeto web desenvolvido utilizando HTML, CSS e JavaScript
+            com autenticação de usuários.
+        </p>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+
+    <form id="formContato">
+        <input type="text" id="nome" placeholder="Nome">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    <p>
+        <a href="#">Instagram</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+    </p>
+
+    <p>© <span id="ano"></span> - Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
